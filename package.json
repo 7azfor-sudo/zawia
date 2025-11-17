@@ -1,17 +1,23 @@
 {
-  "name": "zawiya---web-design-services",
+  "name": "zawiya-web-design-services",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-"build": "vite build --base=/zawiya/",    "react-router-dom": "^7.9.6",
+    "build": "vite build --base=/zawiya/",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.20.0",
     "@google/genai": "^1.29.1"
   },
   "devDependencies": {
     "@types/node": "^22.14.0",
     "@vitejs/plugin-react": "^5.0.0",
-    "typescript": "~5.8.2",
-    "vite": "^6.2.0"
+    "typescript": "^5.0.2",
+    "vite": "^5.2.0"
   }
 }
