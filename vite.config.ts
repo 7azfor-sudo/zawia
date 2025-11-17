@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react';
 export default defineConfig(({ mode }) => {
     const env = loadEnv(mode, '.', '');
     return {
-      base: '/zawia/',   // ← اضفنا هذا السطر المهم
+      base: '/zawia/',   
       server: {
         port: 3000,
         host: '0.0.0.0',
